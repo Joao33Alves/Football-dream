@@ -1,0 +1,32 @@
+DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Dream: Beyond the Pitch</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <header>
+            <h1>Football Dream: Beyond the Pitch</h1>
+        </header>
+        <main>
+            <section id="role-selection">
+                <h2>Select Your Role</h2>
+                <button onclick="selectRole('player')">Player</button>
+                <button onclick="selectRole('manager')">Manager</button>
+                <button onclick="selectRole('owner')">Owner</button>
+                <button onclick="selectRole('referee')">Referee</button>
+            </section>
+            <section id="gameplay" style="display:none;">
+                <!-- Gameplay interface will be populated by JavaScript -->
+            </section>
+        </main>
+        <footer>
+            <p>&copy; 2025 Football Dream: Beyond the Pitch</p>
+        </footer>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
